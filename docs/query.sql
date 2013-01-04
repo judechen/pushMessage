@@ -1,0 +1,1 @@
+SELECT a.* FROM pm_message a,pm_message_catetory b WHERE a.message_id=b.message_id AND b.category IN ('semweb') GROUP BY a.message_id 
